@@ -17,10 +17,10 @@ func scrabblePoints(word string) int {
 	// setting variables to know their score <-- is not golang convention: use map
 	// [(value, [letters here]), ...] <--- map the data
 	// for loop of the word and getting individual letters
+	
 	// if statements to match their points
 	// increment points
-	// return total 
-	return totalPoints	
+	return totalPoints // return total 	
 }
 
 
