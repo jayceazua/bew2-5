@@ -22,7 +22,7 @@ func newDeck() deck {
 	// init an empty deck
 	cards := deck{}
 	// suits array
-	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clovers"}
+	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
 	// values array
 	cardValues := []string{"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"}
 	// loop through the suits
