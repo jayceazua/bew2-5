@@ -39,4 +39,10 @@ Struct:
 3. need to know all the different fields at compile time
 4. represent a "thing" with a lot of different properties
 5. value type
+
+func printMap(argumentName typeOfMap) {
+	for key, value := range argumentName {
+		
+	}
+}
 */
