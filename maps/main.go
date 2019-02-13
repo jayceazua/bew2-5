@@ -7,14 +7,30 @@ func main() {
 	/*option ->*/
 	// colors := make(map[string]string)
 	/*option 3 -> */
-	colors := map[string]string{
-		"red":   "#FF0000",
-		"green": "#F45656",
-		"white": "#ffffff",
-	}
+	// colors := map[string]string{
+	// 	"red":   "#FF0000",
+	// 	"green": "#F45656",
+	// 	"white": "#ffffff",
+	// }
 	// colors["white"] = "#ffffff"
 	// delete(colors, "white")
-	printMap(colors)
+	// printMap(colors)
+	// setting variables to know their score <-- is not golang convention: use map
+	scoreBoard := make(map[int][]string)
+	// [(value, [letters here]), ...] <--- map the data
+	scoreBoard[1] = []string{"A", "E", "I", "O", "U", "L", "N", "R", "S", "T"}
+	scoreBoard[2] = []string{"D", "G"}
+	scoreBoard[3] = []string{"B", "C", "M", "P"}
+	scoreBoard[4] = []string{"F", "H", "V", "W", "Y"}
+	scoreBoard[5] = []string{"K"}
+	scoreBoard[8] = []string{"J", "X"}
+	scoreBoard[10] = []string{"Q", "Z"}
+
+	for _, letters := range scoreBoard {
+		for _,l := range letters {
+			fmt.Println(l)
+		}
+	}
 }
 
 func printMap(c map[string]string) {
@@ -42,7 +58,7 @@ Struct:
 
 func printMap(argumentName typeOfMap) {
 	for key, value := range argumentName {
-		
+
 	}
 }
 */
